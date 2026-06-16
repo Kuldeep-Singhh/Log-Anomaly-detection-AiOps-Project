@@ -40,3 +40,23 @@ Follow these steps to spin up the environment and run the application locally on
 Create a localized environment instance to lock dependencies and prevent system-level interpreter conflicts:
 ```bash
 python -m venv env
+
+### 2. Activate the Environment
+--On Windows:
+Bash
+.\env\Scripts\activate
+
+--On macOS/Linux:
+Bash
+source env/bin/activate
+
+### 3. Install Dependencies
+Compile the required core computational and visualization libraries inside your active environment container:
+Bash
+pip install streamlit pandas numpy scikit-learn
+
+### 4. Launch the Dashboard
+Run the Streamlit server to boot the application interface automatically inside your default web browser:
+Bash
+streamlit run app.py
+***
