@@ -60,4 +60,4 @@ Run the Streamlit server to boot the application interface automatically inside 
 ```Bash
 streamlit run app.py
 ```
-***
+---
